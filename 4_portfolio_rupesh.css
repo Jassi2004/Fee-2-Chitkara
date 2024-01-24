@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0%;
+    /* background-color: #ababab; */
+}
+.upper-nav{
+    background-color: black;
+    height: 20px;
+    display: flex;
+}
+nav{
+    background-attachment: fixed;
+    background-color: #191b20;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    border-bottom: 3px #F07900 solid;
+}
+.nav-heading{
+    background-color: #191b20;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'Anonymous Pro', monospace;
+}
+.nav-content{
+    background-color: #191b20;
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    /* justify-content: space-evenly; */
+    font-size: 10px;
+}
+.nav-text{
+    font-size: 20px;
+}
+
+.main-body{
+    background-color: #191b20;
+    width: 100%;
+    height: 703px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-body-left{
+    background-color: #191b20;
+    width: 600px;
+    padding: 30px;
+}
+
+.heading{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'Anonymous Pro', monospace;
+    margin: 50px;
+}
+.download-cv-button{
+    background-color: #F07900;
+    padding: 18px 30px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.main-body-right-elipse{
+    width: 350px;
+    height: 350px;
+    background-color: #F07900;
+    border-radius: 50% ;
+    box-shadow: 0px 0px 30px#F07900;
+}
+.main-body-right{
+    background-color: #191b20;
+    height: 550px;
+    display: flex;
+    align-items: center;
+}
+.main-body-right-img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+.main-body-right-img2{
+    height: 200px;
+    width: 150px;
+    margin: 47px;
+    margin-left: 130px;
+    /* border-radius: 50%; */
+}
+
+.main-body-2{
+    background-color: #191b20;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    /* border-bottom: 1px #757575 solid; */
+    /* box-shadow: 0px 0px 50px #757575 ; */
+    /* margin: 50px; */
+}
+.main-body-2-left{
+    /* width: 50%; */
+    height: 400px;
+    margin-top: 100px;
+}
+.main-body-2-right{
+    width: 600px;
+    height: 300px;
+    color: #191b20;
+    font-family: 'Anonymous Pro', monospace;
+    padding: 50px;
+}
+.main-body-2-content{
+    padding: 0%;
+    margin: 20px;
+}
+.circle{
+    background-color: #191b20;
+    height: 200px;
+    width: 220px;
+    border-style: solid;
+    border-color: #F07900;
+    border-width: 20px 20px 20px 20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px #F07900 ;
+    margin-left: 50px;
+}
+.main-body-2-img{
+    margin-left: -15px;
+    margin-top: -47px;
+    height: 250px;
+    width: 250px;
+    border-width: 0px 20px 20px 20px;
+    border-radius: 50%;
+}
+
+.main-body-3{
+    background-color: #191b20;
+    height: 700px;
+    /* border-bottom: 1px #757575 solid; */
+}
+.main-body-3-heading{
+    display: flex;
+    justify-content: center;
+}
+.main-body-3-boxes{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    /* width: 700px; */
+}
+.box{
+    margin: 0px 50px;
+    background-color: #F07900;
+    width: 300px;
+    height: 343px;
+    border-radius: 10px;
+    padding-top: 40px;
+    display: block;
+    /* justify-content: space-around; */
+}
+.box-content{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'Anonymous Pro', monospace;
+    margin: 50px;
+}
+
+.main-body-4{
+    height: auto;
+}
+.main-body-4-boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+.box-4{
+    height: 250px;
+    width: 350px;
+    margin: 50px;
+    overflow: hidden;
+    padding-top: 0px;
+}
+.box-4 img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.main-body-4-contact{
+    /* display: flex; */
+    justify-content: center;
+    margin-left: 250px;
+}
+.input-design{
+    background-color: #757575;
+    height: 60px;
+    width: 473px;
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+    padding-left: 50px;
+}
+.input-design-main-text{
+    width: 1025px;
+    height: 400px;
+    
+}
+::placeholder{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Anonymous Pro', monospace;
+    margin: 50px;
+}

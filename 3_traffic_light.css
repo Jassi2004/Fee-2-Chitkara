@@ -1,0 +1,28 @@
+.main{
+    justify-content: center;
+    display: flex;
+}
+
+.structure{
+    background-color: black;
+    width: 250px;
+    height: 750px;
+}
+
+.light{
+    margin: 30px;
+    border-radius: 50%;
+    /* padding: 5%; */
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
